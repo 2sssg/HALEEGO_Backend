@@ -1,4 +1,4 @@
-package com.dmswl.callendar.model;
+package com.dmswl.callendar.DTO;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,6 +9,6 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class Calendar_has_User2 {
-	private int a;
+public class CalendarhasUserDTO {
+	private int calendarhasuser;
 }

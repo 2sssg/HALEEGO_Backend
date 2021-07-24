@@ -1,4 +1,4 @@
-package com.dmswl.callendar.model;
+package com.dmswl.callendar.DTO;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,7 +19,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class Calendar2 {
+public class CalendarDTO {
 	
 	private int calendarNUM;
 	

@@ -14,6 +14,4 @@ public interface Calendar_has_UserRepository extends JpaRepository<Calendar_has_
 	
 	List<Calendar_has_User> findByCalendar(Calendar calendar);
 	
-	
-	
 }

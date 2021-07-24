@@ -1,8 +1,6 @@
-package com.dmswl.callendar.model;
+package com.dmswl.callendar.DTO;
 
-import java.util.ArrayList;
-import java.util.List;
-
+import com.dmswl.callendar.constant.RoleType;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -12,7 +10,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class User2 {
+public class UserDTO {
 
 	private int userIDK; //oracleDB : 시퀀스    mysql : auto-increment
 	
@@ -24,9 +22,4 @@ public class User2 {
 	
 	private RoleType userROLE;
 	
-//	public List<String> userIDKLIST = new ArrayList<>();
-	
-//	public void addList(String tmp) {
-//		userIDKLIST.add(tmp);
-//	}
 }

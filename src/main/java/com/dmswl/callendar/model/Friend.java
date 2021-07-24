@@ -13,11 +13,8 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Data
-@Builder
-@NoArgsConstructor
-@AllArgsConstructor
 @Entity
+@Data
 public class Friend {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY) //auto-increment

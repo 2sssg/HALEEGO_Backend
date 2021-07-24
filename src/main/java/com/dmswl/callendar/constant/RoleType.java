@@ -1,4 +1,4 @@
-package com.dmswl.callendar.model;
+package com.dmswl.callendar.constant;
 
 public enum RoleType {
 	USER,ADMIN

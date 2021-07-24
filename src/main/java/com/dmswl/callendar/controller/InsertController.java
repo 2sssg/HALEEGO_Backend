@@ -3,7 +3,6 @@ package com.dmswl.callendar.controller;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -13,13 +12,13 @@ import com.dmswl.callendar.model.Calendar;
 import com.dmswl.callendar.model.CalendarWithFriend;
 import com.dmswl.callendar.model.Calendar_has_User;
 import com.dmswl.callendar.model.Friend;
-import com.dmswl.callendar.model.RoleType;
+import com.dmswl.callendar.constant.RoleType;
 import com.dmswl.callendar.model.User;
 import com.dmswl.callendar.repository.CalendarRepository;
 import com.dmswl.callendar.repository.Calendar_has_UserRepository;
 import com.dmswl.callendar.repository.FriendRepository;
 import com.dmswl.callendar.repository.UserRepository;
-import com.dmswl.callendar.controller.ReadController;
+
 @RestController
 public class InsertController {
 	
